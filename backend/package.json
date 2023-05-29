@@ -1,0 +1,36 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/K0lschPierre/Piiquante_P6_DW.git"
+    },
+    "author": "_K0|schPierre",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/K0lschPierre/Piiquante_P6_DW/issues"
+    },
+    "homepage": "https://github.com/K0lschPierre/Piiquante_P6_DW#readme",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "express-rate-limit": "^6.7.0",
+      "helmet": "^6.1.5",
+      "jsonwebtoken": "^9.0.0",
+      "mongoose": "^6.10.0",
+      "mongoose-unique-validator": "^3.1.0",
+      "multer": "^1.4.5-lts.1",
+      "nodemon": "^2.0.22",
+      "password-validator": "^5.3.0",
+      "path": "^0.12.7",
+      "validator": "^13.9.0"
+    }
+  }
